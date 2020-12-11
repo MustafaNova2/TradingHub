@@ -2,6 +2,7 @@ import config
 import backtrader, pandas, sqlite3
 from datetime import date, datetime, time, timedelta
 
+# Main Class
 class OpeningRangeBreakout(backtrader.Strategy):
     params = dict(
         num_opening_bars=15
